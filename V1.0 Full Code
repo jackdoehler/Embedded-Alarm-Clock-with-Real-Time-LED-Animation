@@ -666,10 +666,10 @@ void setup()
 
 void loop()
 {
-  Serial.print(digitalRead(BTN_EDIT));
-  Serial.print(digitalRead(BTN_UP));
-  Serial.print(digitalRead(BTN_DOWN));
-  Serial.print(digitalRead(BTN_INDEX));
+  //Serial.print(digitalRead(BTN_EDIT));
+  //Serial.print(digitalRead(BTN_UP));
+  //Serial.print(digitalRead(BTN_DOWN));
+  //Serial.print(digitalRead(BTN_INDEX));
   
   updateClock();
 
